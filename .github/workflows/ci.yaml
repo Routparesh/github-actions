@@ -55,7 +55,6 @@ jobs:
       #       name: Depcheck report
       #       path: ${{github.workspace}}/reports
       - name: Run Dependency Check
-        needs: Git-Leaks
         run: |
           pip install pip-audit
           pip-audit
