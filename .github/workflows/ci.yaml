@@ -119,4 +119,4 @@ jobs:
         uses: docker/build-push-action@v7
         with:
           push: true
-          tags: github-action-tws/app:latest
+          tags: routparesh/github-action-tws-app:latest
